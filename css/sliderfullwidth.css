@@ -1,0 +1,52 @@
+/* jssor slider navigator skin 21 css */
+/*
+.jssorn21 div           (normal)
+.jssorn21 div:hover     (normal mouseover)
+.jssorn21 .av           (active)
+.jssorn21 .av:hover     (active mouseover)
+.jssorn21 .dn           (mousedown)
+*/
+.jssorn21 div, .jssorn21 div:hover, .jssorn21 .av
+{
+	background: url(n21.png) no-repeat;
+	overflow:hidden;
+	cursor: pointer;
+}
+.jssorn21 div { background-position: -5px -5px; }
+.jssorn21 div:hover, .jssorn21 .av:hover { background-position: -35px -5px; }
+.jssorn21 .av { background-position: -65px -5px; }
+.jssorn21 .dn, .jssorn21 .dn:hover { background-position: -95px -5px; }
+
+/* jssor slider direction navigator skin 21 css */
+/*
+.jssord21l              (normal)
+.jssord21r              (normal)
+.jssord21l:hover        (normal mouseover)
+.jssord21r:hover        (normal mouseover)
+.jssord21ldn            (mousedown)
+.jssord21rdn            (mousedown)
+*/
+.jssord21l, .jssord21r, .jssord21ldn, .jssord21rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url(d21.png) center center no-repeat;
+	overflow: hidden;
+}
+.jssord21l { background-position: -3px -33px; }
+.jssord21r { background-position: -63px -33px; }
+.jssord21l:hover { background-position: -123px -33px; }
+.jssord21r:hover { background-position: -183px -33px; }
+.jssord21ldn { background-position: -243px -33px; }
+.jssord21rdn { background-position: -303px -33px; }
+
+.rsfs_loading_screen{
+	position: absolute;
+	display: block;
+	background: url(../images/loading.gif) no-repeat center center;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
